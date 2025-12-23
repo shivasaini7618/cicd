@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 // Sample API
 app.get("/api/user", (req, res) => {
   res.json({
-    name: "Shiva",
+    name: "Shiva saini",
     role: "Backend Developer"
   });
 });
