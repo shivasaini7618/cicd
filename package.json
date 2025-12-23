@@ -4,7 +4,7 @@
   "description": "A basic Node.js application",
   "main": "index.js",
   "scripts": {
-    "test" : "Jest --runInBand",
+    "test" : "npx Jest --runInBand",
     "start": "node index.js",
     "dev": "node index.js"
   },
