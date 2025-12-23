@@ -19,6 +19,14 @@ app.get("/api/user", (req, res) => {
   });
 });
 
+app.get("/api/getAll", (req, res) => {
+  res.json({
+    name: "Shiva saini",
+    age : 22,
+    role: "Backend Developer"
+  });
+});
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
