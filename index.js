@@ -23,7 +23,9 @@ app.get("/api/getAll", (req, res) => {
   res.json({
     name: "Shiva saini",
     age : 22,
-    role: "Backend Developer"
+    role: "Backend Developer",
+    city : "Rampur",
+    village : "Rampur "
   });
 });
 
